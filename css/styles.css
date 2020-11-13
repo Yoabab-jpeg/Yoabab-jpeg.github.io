@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   padding: 0;
   min-height: 100%;
+  background-color: floralwhite;
 }
 
 *,
@@ -55,6 +56,8 @@ video {
   align-items: center;
   padding: 0;
   margin: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .nav-item {
@@ -151,13 +154,13 @@ video {
   background-size: cover;
   background-position: center;
 }
-.hero-textbox {
+.hero-text-box {
   grid-row: 1 / -1;
   grid-column: 1 / -1;
   align-self: center;
   padding: 1rem;
   z-index: 10;
-  text-align: center;
+  text-align: left;
 }
 .hero-heading {
   font-size: 1.5rem;
@@ -178,7 +181,9 @@ video {
   margin-top: 2rem;
 }
 .hero-button:hover {
-  transform: scale(0.95);
+  transform: scale(2);
+  background-color: red;
+  border: 10px dotted green;
 }
 .hero-button:active {
   background: rgba(0, 0, 0, 0.3);
