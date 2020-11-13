@@ -81,7 +81,7 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid floralwhite;
+  border-bottom: 1px solid yellow;
   transition: all ease 0.1s;
 }
 .nav-menu a:hover {
@@ -100,10 +100,10 @@ video {
 }
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: floralwhite;
+  color: purple;
 }
 .hero-nav .nav-menu a:hover {
-  border-bottom: 1px solid floralwhite;
+  border-bottom: 1px solid orange;
 }
 
 .hero-nav .nav-menu a {
@@ -164,16 +164,16 @@ video {
   letter-spacing: 0.05rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: floralwhite;
+  color: blue;
 }
 .hero-button {
   display: inline-block;
   padding: 0.75rem 2rem;
   background: none;
-  color: floralwhite;
+  color: green;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 1px solid floralwhite;
+  border: 1px solid red;
   border-radius: 5px;
   margin-top: 2rem;
 }
