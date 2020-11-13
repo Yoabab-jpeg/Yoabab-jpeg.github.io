@@ -81,7 +81,7 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid blue;
   transition: all ease 0.1s;
 }
 .nav-menu a:hover {
@@ -100,10 +100,10 @@ video {
 }
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: purple;
+  color: darkmagenta;
 }
 .hero-nav .nav-menu a:hover {
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid blue;
 }
 
 .hero-nav .nav-menu a {
@@ -170,10 +170,10 @@ video {
   display: inline-block;
   padding: 0.75rem 2rem;
   background: none;
-  color: green;
+  color: black;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 1px solid red;
+  border: 1px solid blue;
   border-radius: 5px;
   margin-top: 2rem;
 }
