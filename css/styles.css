@@ -100,7 +100,7 @@ video {
 }
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: darkmagenta;
+  color: blue;
 }
 .hero-nav .nav-menu a:hover {
   border-bottom: 1px solid blue;
