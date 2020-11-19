@@ -236,7 +236,7 @@ video {
   transition: 0.5s ease-in-out;
 }
 .gallery-img:hover {
-  transform: scale(1.5);
+  transform: scale(0.5);
 }
 .gallery-span {
   grid-template-columns: 1fr;
