@@ -270,14 +270,14 @@ video {
   max-width: 80ch;
   margin: 0 auto;
 }
-/* this needs numbers from shop page */
+/* this needs numbers from shop page     sometimes hard reload and delete cache if not seeing changes*/
 .shop-box {
   width: 266px;
   margin: 0 auto; /*12 items tall */
 }
 .shop-box iframe {
   width: 100%;
-  height: 1274px; /* however many items tall*/
+  height: 1274px; /* for 12 items tall change height to 2749px */
 }
 @media (min-width: 506px) {
   .shop-box {
