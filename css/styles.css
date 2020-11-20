@@ -258,7 +258,56 @@ video {
 .h-6 {
   grid-row: span 1;
 }
-
+/* styles for embedded shop page */
+.shop-page {
+  padding: 2rem 1rem 10rem 1rem;
+}
+.shop-page h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.shop-page .text-box {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+/* this needs numbers from shop page */
+.shop-box {
+  width: ;
+  margin: 0 auto; /*12 items tall */
+}
+.shop-box iframe {
+  width: 100%;
+  height: ; /* however many items tall*/
+}
+@media (min-width: px) {
+  .shop-box {
+    width: ;
+  }
+  .shop-box iframe {
+    height: ; /*6 items tall*/
+  }
+}
+@media (min-width: px) {
+  .shop-box {
+    width: px;
+  }
+  .shop-box iframe {
+    height: ; /* 4 items tall */
+  }
+}
+@media (min-width: px) {
+  .shop-box {
+    width: px;
+  }
+  .shop-box iframe {
+    height: px; /* 3 items tall*/
+  }
+}
+@media (min-width: px) {
+  .shop-box {
+    width: px;
+  }
+}
 /* footer nav exstra styles */
 .footer-logo {
   white-space: nowrap;
