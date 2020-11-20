@@ -272,40 +272,40 @@ video {
 }
 /* this needs numbers from shop page */
 .shop-box {
-  width: ;
+  width: 266px;
   margin: 0 auto; /*12 items tall */
 }
 .shop-box iframe {
   width: 100%;
-  height: ; /* however many items tall*/
+  height: 1274px; /* however many items tall*/
 }
-@media (min-width: px) {
+@media (min-width: 506px) {
   .shop-box {
-    width: ;
+    width: 506px;
   }
   .shop-box iframe {
-    height: ; /*6 items tall*/
+    height: 1417px; /*6 items tall*/
   }
 }
-@media (min-width: px) {
+@media (min-width: 746px) {
   .shop-box {
-    width: px;
+    width: 746px;
   }
   .shop-box iframe {
-    height: ; /* 4 items tall */
+    height: 973; /* 4 items tall */
   }
 }
-@media (min-width: px) {
+@media (min-width: 986px) {
   .shop-box {
-    width: px;
+    width: 986px;
   }
   .shop-box iframe {
-    height: px; /* 3 items tall*/
+    height: 751px; /* 3 items tall*/
   }
 }
-@media (min-width: px) {
+@media (min-width: 1226px) {
   .shop-box {
-    width: px;
+    width: 1226px;
   }
 }
 /* footer nav exstra styles */
